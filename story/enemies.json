@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Goblin",
+        "age": 13,
+        "level": 5,
+        "class": "Scout",
+        "gender": false,
+        "Krama": 0.4,
+        "luck": 0.1,
+        "skills": [
+            {
+                "Slash":{"dmg":10},
+                "Thrust": {"dmg":12}
+            }
+        ],
+        "current_Weapon": [
+            {
+                "broken dagger": 5
+            }
+        ]
+    }
+]
