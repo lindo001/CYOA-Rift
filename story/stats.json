@@ -1,0 +1,28 @@
+[
+    {
+        "Name": "NameLess",
+        "Age": 0,
+        "Level": 0,
+        "Class": "None",
+        "gender": false,
+        "Health": -20,
+        "Krama": 0,
+        "luck": 0,
+        "Infamy": 3,
+        "skills": [
+            {
+                "Slash": {
+                    "dmg": 1
+                },
+                "Thrust": {
+                    "dmg": 1
+                }
+            }
+        ],
+        "Inventory": [
+            {
+                "broken dagger": 5
+            }
+        ]
+    }
+]

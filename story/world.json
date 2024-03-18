@@ -1,0 +1,57 @@
+[{
+    "PageId":0,
+    "Story":"Wake up",
+    "Choices":[
+        {
+            "Text":"Get out of bed",
+            "PageId":0.1,
+            "Stats_modifiers": {
+                "hunger": 1,
+                "thirst": 1,
+                "energy": -1
+            }
+        },
+        {
+            "Text":"Go back to sleep",
+            "PageId":0.2,
+            "Stats_modifiers": {
+                "energy": 1
+            }
+        }
+    ]
+},{
+    "PageId":0.1,
+    "Story":"You get out of bed",
+    "Choices":[
+        {
+            "Text":"Go to the bathroom",
+            "PageId":0.3,
+            "Stats_modifiers": {
+                "hunger": 1,
+                "thirst": 1,
+                "energy": -1
+            }
+        },
+        {
+            "Text":"Go to the kitchen",
+            "PageId":0.4,
+            "Stats_modifiers": {
+                "hunger": 1,
+                "thirst": 1,
+                "energy": -1
+            }
+        }
+    ]
+},{
+    "PageId":0.2,        
+    "Story":"You go back to sleep",
+    "Choices":[
+        {
+            "Text":"End",
+            "PageId":0,
+            "Stats_modifiers": {
+                "energy": 1
+            }
+        }
+    ]
+}]
