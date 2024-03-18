@@ -1,0 +1,10 @@
+Combat System:
+- Expand the combat system in `game_modules/basics.py` to consider player and enemy inventory and skills.
+- Implement different outcomes based on the player's and enemy's skills and weapons.
+- Consider adding a system for critical hits or misses based on player's and enemy's "luck" attribute.
+
+Market System:
+- Create a new Market system where players can buy and sell items.
+- This system should interact with the player's inventory.
+- Consider different types of items to sell: weapons, potions, armor, etc.
+- Implement a pricing system for the items. This could be static or dynamic (prices change based on certain conditions).
