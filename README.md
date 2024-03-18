@@ -1,6 +1,5 @@
 # CYOA-Champ
-
-CYOA-Champ is a text-based adventure game where players can make choices that affect the outcome of the game. The game is built in Python and uses JSON files to store game data.
+Got inspired by recent text-based games I played and thought I'd try my hand at making my own. Text-based adventure game where players can make choices that affect the outcome of the game. The game is built in Python and uses JSON files to store game data. The story is still in the making, but the features I want available or are needed by the game/program are something I can do now.
 
 ## Project Structure
 
