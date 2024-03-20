@@ -62,9 +62,9 @@ def play_game():
 
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     # play_game()
     # Infamy_detect()
     # wanted()
-    player = get_player_stats()
-    print(player)
+    # player = get_player_stats()
+    # print(player)

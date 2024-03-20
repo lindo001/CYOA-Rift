@@ -1,6 +1,8 @@
 import json
 import random
 
+from game_modules.story_decoder import read_world_json
+
 
 class Entity:
     """
@@ -115,24 +117,36 @@ class WnRJson:
         for key, value in update.items():
             if value != 0:
                 pass
+            
 
+def read_player_and_enemy():
+    player = read_world_json("story/stats.json")
+    enemy = read_world_json("story/enemies.json")
+    return player, enemy
 
-class CombatMechanic:
-    """
-    Implements combat mechanics.
+def calculate_damage(player, enemy, damage_type):
+    if random.randint(1, 10) >= 5:
+        sum = player[0]["weapon"][damage_type] + player[0]["speed"] + player[0]["level"] / 4 + player[0]["Str"] / player[0]["weight"]
+        if random.randint(1, player[0]["critical_hit"]) > (enemy[0]["luck"] + enemy[0]["level"] / 60):
+            print("Critical Hit")
+            sum += player[0]["critical_hit"]
+        player[0]["health"] -= sum
+        return player[0]["health"]
+    else:
+        return "missed" if damage_type == "Attack Power" else "Too slow"
 
-    Methods:
-    - combat(attacker, receiver): Simulates combat between attacker and receiver.
-    - calculate_defence_damage(player, enemy): Calculates enemy's damage received by the player during defense.
-    """
-    def __init__(self):
-        pass
-    
-    def combat(self, attacker, receiver):
-        if random.randint(1, 10) >= 5:
-            return attacker - receiver
-        else:
-            return "missed"
-        
-    def calculate_defence_damage(self, player, enemy):
-        return enemy - player
+def escape(player, enemy):
+    return player[0]["level"] > enemy[0]["level"] or player[0]["luck"] > random.randrange(1, random.randint(9))
+
+def weapon_switch(player, user_pick):
+    if user_pick in player[0]["Item Slot"]:
+        player[0]["Current Weapon"] = user_pick
+    else:
+        print("looks like luck's not on your side")
+
+def CombatMechanic(attacker, receiver):
+    player, enemy = read_player_and_enemy()
+    attack_damage = calculate_damage(player, enemy, "Attack Power")
+    defence_damage = calculate_damage(player, enemy, "Defence")
+    can_escape = escape(player, enemy)
+    weapon_switch(player, "Sword")  

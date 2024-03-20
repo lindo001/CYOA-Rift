@@ -9,6 +9,7 @@
         "Krama": 0,
         "luck": 0,
         "Infamy": 3,
+        "weight":34,
         "skills": [
             {
                 "Slash": {
@@ -23,6 +24,7 @@
             {
                 "broken dagger": 5
             }
-        ]
+        ],
+        "Item Slot":[]
     }
 ]
