@@ -1,0 +1,72 @@
+
+
+Act One:
+
+
+Scene: Somewhere in an abandend building a gang held a girl hostage:
+
+    Leader: Hinanta. I'm sure you already now why your here,After all. *pulls her hair facing here to look at his recent scar*, Thanks to your brother 
+            I got this little gift. So why not pay him back in full.
+    
+    One of the gons: *chuckle* Why don't we keep ourselves busy while waiting for him? * He says looking at her sket with a grin*
+    Leader: That can wait until we beat the living shit out of {p_name}. I want him to watch.
+
+    *One of the gons comes in runing *"His here! His ..."
+
+    p_name: {op1: *Beat the living stars out of these fools*} 
+            {op2: *Try defusing the situation*}
+            {op3: *Threaten to beat the leader again*}
+    
+    respone_1#
+            With a fierce determination, you wastes no time. In a swift motion, you launch into action, fists clenched and adrenaline pumping.
+            as the first gang member rushs towards you , you skillfully dodge before you:
+            {op1: fight dirty}
+            {op1: fight the way your master taught you}
+            respone_for_op1#
+                kick the man in the groun as he sceams in pain you don't have time to celebrate as trip the next goon sending him colliding to the floor face first,
+
+                The leader pulls out a gun as he fires your sisters pulls away causeing him to shoot your arm 
+                {op1: end this before it gets more dangours}
+                respone_for_op1#
+                You rush in kicking his leg as a crack ound follows causing him to howl in pain before trying to aim gun, pulling his aim and placing him in a chock hold
+                he tries stuggling "F You" as his world goes dark
+
+
+
+    respone_2#
+            p_name:"Bring family into a school fight is kind of a low even for you.*you say before sighing*,look just let my sister go and 
+                    you can do whatever you want  to me."
+            leader: "It seems like you don't understand the situation here.unlike before I AM THE ONE WHOSE IN CONTROL, Thanks to the scar you gave me, I was 
+                    thinking of the best way to get my pay back. who knew the had a sister!"*He says as one of his goons take a pick at her *
+
+                    {op1: *Try defusing the situation*}
+                    {op2:*This isn't working.. time for Plan B!}
+    respone_3#
+            p_name:
+
+
+Act Two:
+
+Scene: As you carry your litte sister in the middle of the night she slowly begins yo wake up:
+    p_sister: "I'm sorry , This is all my fault. It's because I'm weak... and I'm always causing trouble for you." *She says braying her face on you back shirt*
+    p_name: {op1: "Your not causing trouble"}
+            {op2: "..."}
+            {op3: "Your useless"}
+
+
+
+
+Act three:
+Scene: The following day in school:
+
+    group of policeman and a ditective : *shows you the bidge* "Excuse me for disturbing you all, we're looking for {p_name}"
+    *Teacher points at you.The police offears pull out handcuffs* {p_name} I'll need you to came will me for the murder of 13 men, Trust me it would be better for everyone 
+    if you don't resist.
+    {op1: "What..?"}
+    {op2: *Escape!*}
+    {op3: This is a game,A CYOA game! you just don't know it} -Crazy stats boosted
+
+    *Before you could object you realize that you've been hand cuffed*
+
+
+
